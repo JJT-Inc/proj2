@@ -1,17 +1,31 @@
+body
+{
+  background-color: skyblue;
+  font-family: arial;
+}
 #nav-bar ol
 {
   display: inline-block;
+  text-align: center;
   list-style-type: none;
   margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: dodgerblue;
   width: 100%;
-  text-align: center;
-  padding-top: 1%;
-  padding-bottom: 1%;
 }
 #nav-bar li
 {
-  display: inline;
-  padding: 1em;
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#nav-bar li:hover
+{
+  background-color: skyblue;
 }
 
 img
