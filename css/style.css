@@ -1,8 +1,10 @@
+/*Thomas's Stuff*/
 body
 {
   background-color: skyblue;
   font-family: arial;
 }
+/*Navigation Link style*/
 #nav-bar ol
 {
   display: inline-block;
@@ -27,7 +29,7 @@ body
 {
   background-color: skyblue;
 }
-
+/*Image style*/
 img
 {
   max-width: 200px;
@@ -40,7 +42,7 @@ img:hover
 {
   opacity: 0.5;
 }
-
+/*Function for centering images and/or other things*/
 .center
 {
   display: inline-block;
@@ -48,3 +50,4 @@ img:hover
   margin-right: auto;
   width: 100%;
 }
+/* Feel free to add anything else necessary below here*/
