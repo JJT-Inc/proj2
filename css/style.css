@@ -8,11 +8,29 @@
   padding-top: 1%;
   padding-bottom: 1%;
 }
+#nav-bar li
+{
+  display: inline;
+  padding: 1em;
+}
 
 img
 {
   max-width: 200px;
   max-height: 200px;
-  width: auto;
+  width: 150px;
   height: auto;
+  border-radius: 75%;
+}
+img:hover
+{
+  opacity: 0.5;
+}
+
+.center
+{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
