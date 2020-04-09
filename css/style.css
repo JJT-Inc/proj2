@@ -1,28 +1,50 @@
 /*Thomas's Stuff*/
 body
 {
-  background-color: skyblue;
+  background-color: white;
   font-family: arial;
 }
 /*Navigation Link style*/
+
 #nav-bar ol
 {
+  font-size: 18px;
   display: inline-block;
   text-align: center;
   list-style-type: none;
+  border: 1px solid grey;
   margin: 0 auto;
   padding: 0;
   overflow: hidden;
-  background-color: dodgerblue;
+  background-color: #4E82AD;
+  box-shadow: 0px 2px 1px 0px;
   width: 100%;
+
 }
 #nav-bar li
 {
   display: inline-block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
+  width: 33%;
+  margin: 0 auto;
+  padding: 16px 0 16px 0;
+  border-right: 1px solid #A9A9A9;
   text-decoration: none;
+  color: white;
+
+}
+#nav-bar a
+{
+    text-decoration: none;
+    margin: 0;
+    color: white;
+}
+#nav-bar a:visited
+{
+    text-decoration: none;
+}
+
+a.current {
+
 }
 
 #nav-bar li:hover
@@ -51,3 +73,16 @@ img:hover
   width: 100%;
 }
 /* Feel free to add anything else necessary below here*/
+#header {
+  width:100%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #2B6CA3;
+}
+
+#logo {
+  width: 175px;
+  border-radius: 46%;
+}
