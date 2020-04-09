@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Contact Us</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+
+<body>
+<h1><img src="images/world.png"> The International Study for Univeral Dialogue</h1>
+<header>
+  <nav id="nav-bar">
+    <ol>
+      <li><a href="index.html">Home</li>
+      <li><a href="about.html">About Us</a></li>
+      <li>ISUD Announcements & Events</li>
+      <li>Contact Us</li>
+    </ol>
+  </nav> 
+ </header>
+  <div class="contact">
+    <h1>Contact Us</h1>
+    <h2>Enter your information below to be contacted by us:</h2>
+    <form onsubmit="validate()" method="get" action="#null" autocomplete="on">
+      <div id="form">
+        <fieldset>
+          <div>
+            <label>First & Last Name:</label>
+          </div>
+          <input type="text" name="name" placeholder="Enter First & Last Name" id="name"required>
+          <div>
+            <label>Email Address:</label>
+          </div>
+          <input type="email" name="email" placeholder="Enter Email" id="email"required>
+          <div>
+            <label>Subject</label>
+          </div>
+          <input type="text" name="subject" placeholder="Subject"></textarea>
+          <div>
+            <label>Message:</label>
+          </div>
+          <textarea id="Message" name="Message" placeholder="Write something.."></textarea>
+		  <input type="submit" value="Submit" id="submit_button"/>
+        </fieldset>
+      </div>
+    </form>
+  </div>
+</body>  
+
+</body>
+</html>
