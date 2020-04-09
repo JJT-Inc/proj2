@@ -24,7 +24,10 @@ body
   padding: 14px 16px;
   text-decoration: none;
 }
-
+#nav-bar li:visited
+{
+    text-decoration: none;
+}
 #nav-bar li:hover
 {
   background-color: skyblue;
