@@ -8,17 +8,46 @@
 </head>
 
 <body>
-
-  <h1><img src="images/world.png"> The International Study for Univeral Dialogue</h1>
-
-  <nav id="nav-bar">
-    <ol>
-      <li><a href="index.html">Home</li>
-      <li><a href="about.html">About Us</a></li>
-      <li>ISUD Announcements & Events</li>
-      <li><a href="contact.html">Contact Us</a></li>
-    </ol>
-  </nav>
+<header>
+    <div class="nav">
+    <h1>ISUD</h1>
+      <nav>
+        <ul>
+          <li><strong><a href="index.html">Home |</a></strong></li>
+          <li><strong><a href="about.html">About Us |</a></strong></li>
+          <li><strong><a href="#">Contact Us</a></strong></li>
+        </ul>
+      </nav>
+    </div> 
+  </header>
+  <div class="contact">
+    <h1>Contact Us</h1>
+    <h2>Enter your information below to be contacted by us:</h2>
+    <form onsubmit="validate()" method="get" action="#null" autocomplete="on">
+      <div id="form">
+        <fieldset>
+          <div>
+            <label>First & Last Name:</label>
+          </div>
+          <input type="text" name="name" placeholder="Enter First & Last Name" id="name">
+          <div>
+            <label>Email Address:</label>
+          </div>
+          <input type="email" name="email" placeholder="Enter Email" id="email">
+          <div>
+            <label>Phone Number:</label>
+          </div>
+          <input type="tel" name="phone" placeholder="Enter Mobile Number" id="phone_number">
+          <div>
+            <label>Date of Birth:</label>
+          </div>
+          <input type="text" placeholder="mm/dd/yyyy">
+        </fieldset>
+      </div>
+      <input type="submit" value="Submit" id="submit_button"/>
+    </form>
+  </div>
+</body>  
 
 </body>
 </html>
