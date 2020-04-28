@@ -6,7 +6,7 @@ body
 }
 /*Navigation Link style*/
 
-#nav-bar ol
+#nav-bar ul
 {
   font-size: 18px;
   display: inline-block;
