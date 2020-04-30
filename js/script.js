@@ -14,13 +14,13 @@ function ProfanityCheck() {
       return returnVal;
   }
 
-  var myText = document.getElementById('text').value;
+  var myText = document.getElementById('name').value;
 
   if(containsProfanity(myText)){
       alert('That name contains profanity. Please try another username.');
   }
   else{
-    if((document.getElementById('text').value && document.getElementById('email').value && document.getElementById('tel').value != '' ) {
+    if((document.getElementById('text').value && document.getElementById('email').value && document.getElementById('tel').value) != '' ) {
       alert('Form submitted.');
     }
     else {
